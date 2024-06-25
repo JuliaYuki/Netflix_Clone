@@ -76,6 +76,7 @@
 
 .span-red {
     color: red;
+    cursor: pointer;
 }
 
 .episodios {
@@ -89,6 +90,11 @@
     width: 230px;
     height: 135px;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.card-episodio:hover {
+    border: 1px solid #e90a0a;
 }
 
 .card-episodio:first-child {
@@ -102,6 +108,10 @@
 
 .poster {
     width: 392px;
+}
+
+.row img {
+    cursor: pointer;
 }
 
 .m-t-14 {
@@ -135,4 +145,28 @@
 
 .pt-50 {
     padding-top: 50px;
+}
+
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    
+}
+
+.social-media .items {
+    /* width: 60px;
+    height: 60px; */
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(92, 92, 92, 0.355);
+    padding: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.social-media .items:hover {
+    background-color: rgba(255, 255, 255, 0.74);;
 }

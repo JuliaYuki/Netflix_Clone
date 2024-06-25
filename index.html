@@ -13,18 +13,16 @@
         <title>Netflix</title>
     </head>
     <body>
-
         <div class="container">
-
             <div class="overlay"></div>
 
             <div class="menu">
                 <ul>
                     <li>
-                        <a aria-label="Ir para Sobre" href="#Sobre">Sobre</a>
+                        <a class="menu-item" aria-label="Ir para Sobre" href="#Sobre">Sobre</a>
                     </li>
                     <li>
-                        <a aria-label="Ir para Trailer" href="#Trailer"
+                        <a class="menu-item" aria-label="Ir para Trailer" href="#Trailer"
                             >Trailer</a
                         >
                     </li>
@@ -35,18 +33,17 @@
                         />
                     </li>
                     <li>
-                        <a aria-label="Ir para Personagens" href="#Personagens"
+                        <a class="menu-item" aria-label="Ir para Personagens" href="#Personagens"
                             >Personagens</a
                         >
                     </li>
                     <li>
-                        <a aria-label="Ir para Avaliacoes" href="#Avaliacoes"
+                        <a class="menu-item" aria-label="Ir para Avaliacoes" href="#Avaliacoes"
                             >Avaliações</a
                         >
                     </li>
                 </ul>
             </div>
-
 
             <div class="row gap-150 ph-60 pt-60">
                 <div class="info_anime">
@@ -65,25 +62,75 @@
 
                     <div class="row m-l-0 m-t-56">
                         <span>4ª Temporada</span>
-                        <img src="./assets/img/chevron-left.png" alt="seta esquerda">
-                        <img src="./assets/img/chevron-right.png" alt="seta direita">
+                        <img
+                            src="./assets/img/chevron-left.png"
+                            alt="seta esquerda"
+                        />
+                        <img
+                            src="./assets/img/chevron-right.png"
+                            alt="seta direita"
+                        />
                     </div>
 
                     <div class="episodios gap-20">
-                        <img class="card-episodio" src="./assets/img/demonSlayer_Thumb.png" alt="demon slayer thumb">
-                        <img class="card-episodio" src="./assets/img/demonSlayer_Thumb.png" alt="demon slayer thumb">
-                        <img class="card-episodio" src="./assets/img/demonSlayer_Thumb.png" alt="demon slayer thumb">
+                        <img
+                            class="card-episodio"
+                            src="./assets/img/demonSlayer_Thumb.png"
+                            alt="demon slayer thumb" data-episode="1"
+                        />
+                        <img
+                            class="card-episodio"
+                            src="./assets/img/demonSlayer_Thumb.png"
+                            alt="demon slayer thumb" data-episode="2"
+                        />
+                        <img
+                            class="card-episodio"
+                            src="./assets/img/demonSlayer_Thumb.png"
+                            alt="demon slayer thumb" data-episode="3"
+                        />
                     </div>
                 </div>
 
-
                 <img
-                        class="poster gap-100 pt-50"
-                        src="./assets/img/slayerTrainingArcPoster.png"
-                        alt="Poster demon slayer"
-                    />
+                    class="poster gap-100 pt-50"
+                    src="./assets/img/slayerTrainingArcPoster.png"
+                    alt="Poster demon slayer"
+                />
+                <div class="social-media">
+                    <div
+                        class="items"
+                        data-platform="Facebook"
+                        data-url="https://facebook.com/sharer/sharer.php?u=https://example.com"
+                    >
+                        <img
+                            src="./assets/img/facebook.png"
+                            alt="Compartilhar no Facebook"
+                        />
+                    </div>
+                    <div
+                        class="items"
+                        data-platform="Twitter"
+                        data-url="https://twitter.com/intent/tweet?url=https://example.com&text=Assista%20Demon%20Slayer%20na%20Netflix"
+                    >
+                        <img
+                            src="./assets/img/twitter.png"
+                            alt="Compartilhar no Twitter"
+                        />
+                    </div>
+                    <div
+                        class="items"
+                        data-platform="Instagram"
+                        data-url="https://instagram.com"
+                    >
+                        <img
+                            src="./assets/img/instagram.png"
+                            alt="Compartilhar no Instagram"
+                        />
+                    </div>
+                </div>
             </div>
-            
         </div>
+
+        <script src="./scripts/script.js"></script>
     </body>
 </html>
